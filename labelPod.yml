@@ -1,0 +1,12 @@
+apiVersion: v1
+
+kind: Pod
+metadata:
+  name: "labelpod"
+  labels:
+    app: web
+
+spec:
+  containers:
+  - name: "labelcont"
+    image: vimal13/apache-webserver-php
