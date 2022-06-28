@@ -12,10 +12,10 @@ spec:
     image: mysql:5.7
     env:
     - name: MYSQL_ROOT_PASSWORD
-      value: "redhat"
+      value: "YOURPASS"
     - name: MYSQL_DATABASE
-      value: "wpdb"
+      value: "YOURDB"
     - name: MYSQL_USER
-      value: "yash"
+      value: "YOURUSER"
     - name: MYSQL_PASSWORD
-      value: "redhat" 
+      value: "YOURPAAS" 
